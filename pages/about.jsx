@@ -1,6 +1,5 @@
 import Head from "next/head"
-import Link from "next/link"
-import Nav from "../components/Nav"
+import Aboutbox from "../components/Aboutbox"
 
 const about = () => {
     return (
@@ -8,7 +7,7 @@ const about = () => {
             <Head>
                 <title>About</title>
             </Head>
-            <h1>About</h1>
+            <Aboutbox></Aboutbox>
         </div>
     )
 }
