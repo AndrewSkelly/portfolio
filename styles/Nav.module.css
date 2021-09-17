@@ -8,7 +8,7 @@
     list-style-type: none;
     margin: 0;
     padding-left: 10px;
-    height: 50px;
+    height: 60px;
 }
 
 /* Logo Navbar Item */
@@ -32,6 +32,25 @@
 
 /* Navbar Items On Hover */
 .link:hover {
+    color: rgb(134, 134, 134);
+    font-size: 21px;
+    border-bottom: solid rgb(218, 218, 218) 2px;
+}
+
+/* Navbar Items */
+.linkIcon {
+    font-family: 'Telex', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    display: inline;
+    padding: 10px;
+    padding-top: 15px;
+    float: right;
+}
+
+/* Navbar Items On Hover */
+.linkIcon:hover {
     color: rgb(134, 134, 134);
     font-size: 21px;
     border-bottom: solid rgb(218, 218, 218) 2px;
