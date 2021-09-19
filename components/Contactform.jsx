@@ -13,6 +13,7 @@ const Contactform = () => {
                     component="form"
                     sx={{
                         width: '100%',
+                        padding: '25px'
                     }}
                     spacing={2}
                     noValidate
